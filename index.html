@@ -4,13 +4,13 @@
 <meta name="robots" content="noindex,nofollow">
 <meta name="theme-color" content="#2b1141">
 <title>Trivenkem · Sample Godown</title>
-<link rel="stylesheet" href="style.css?v=3">
+<link rel="stylesheet" href="style.css?v=4">
 </head><body>
 <header class="hdr">
  <div class="in">
   <div class="brand"><span class="mk">T</span><div><b>Trivenkem</b><small>Sample Godown</small></div></div>
   <div class="search"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-   <input id="q" type="search" placeholder="Search name, code, rack, scent, notes" autocomplete="off"><kbd>/</kbd></div>
+   <input id="q" type="search" placeholder="Search name, code, rack, scent, notes" autocomplete="off"><button class="qc" id="qc" hidden aria-label="Clear search">✕</button><div class="sug" id="sug"></div></div>
   <div class="acts">
    <button class="cta" data-act="add">+ Add sample</button>
    <button class="ghost" data-act="exp">Export</button>
@@ -25,7 +25,7 @@
  <section class="res">
   <div class="stats" id="stats"></div>
   <div class="active" id="active"></div>
-  <div class="bar"><b id="cnt"></b>
+  <div class="bar"><div class="bl"><button class="btn tg" id="tgl" data-act="tgl">« Hide filters</button><b id="cnt"></b></div>
    <select id="sort"><option value="name">Sort: Name A–Z</option><option value="loc">Sort: Location</option><option value="new">Sort: Recently added</option></select></div>
   <div class="grid" id="grid"></div>
  </section>
@@ -39,9 +39,10 @@
 </nav>
 <div class="scrim" id="scrim"></div>
 <input type="file" id="file" multiple hidden>
+<input type="file" id="bfile" accept="image/*" multiple hidden>
 <input type="file" id="pfile" accept="image/*" hidden>
 <div class="menu" id="menu"></div>
 <div class="modal" id="mod"><div class="sheet" id="sheet"></div></div>
 <div class="toast" id="toast"></div>
-<script src="app.js?v=3"></script>
+<script src="app.js?v=4"></script>
 </body></html>

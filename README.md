@@ -30,3 +30,8 @@ Import accepts CSV, TSV, Excel (.xlsx/.xls) and the JSON backup, and you can pic
 ## Publish with GitHub Pages (free)
 Repo → Settings → Pages → Deploy from a branch → `main` / root → Save. Link: `https://<username>.github.io/<repo>/`.
 To update later: Add file → Upload files → same file names → Commit. Then refresh the site.
+
+## Product photos
+- One sample: 3-dot menu → Add photo (camera or gallery), or paste an image link in Edit.
+- Many at once: Import → Add photos in bulk. Name each photo like the sample name or code (e.g. `AMAZON TREE.jpg` or `B310070229.jpg`).
+- Your CSV can also have an `Image URL` column.
