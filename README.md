@@ -12,8 +12,8 @@ Internal perfume-sample locator. Pure HTML/CSS/JS – no server, no tracking, no
 ## Use on your computer
 Double-click `index.html`. Click **Import** and pick your CSV.
 
-## Put it on GitHub (keep it private)
-1. github.com → **New repository** → name `sample-godown` → choose **Private** → Create.
+## Put it on GitHub
+1. github.com → **New repository** → name `sample-godown` → choose **Public** (needed for free GitHub Pages; your data is not in the repo) → Create.
 2. Click **uploading an existing file**, drag `index.html`, `style.css`, `app.js`, `README.md`, `.gitignore` → **Commit changes**.
 3. Never upload your CSV/JSON backups to GitHub.
 
@@ -25,4 +25,8 @@ Double-click `index.html`. Click **Import** and pick your CSV.
 
 ## Export / backup
 Header → **Export**: all samples (CSV), current search results (CSV), full backup (JSON), Print / PDF.
-Import accepts both the CSV and the JSON backup. Export a backup regularly – browser data is lost if the browser's site data is cleared.
+Import accepts CSV, TSV, Excel (.xlsx/.xls) and the JSON backup, and you can pick several files at once. Photos are included in the JSON backup. Export a backup regularly – browser data is lost if the browser's site data is cleared.
+
+## Publish with GitHub Pages (free)
+Repo → Settings → Pages → Deploy from a branch → `main` / root → Save. Link: `https://<username>.github.io/<repo>/`.
+To update later: Add file → Upload files → same file names → Commit. Then refresh the site.
